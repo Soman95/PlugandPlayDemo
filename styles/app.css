@@ -1,0 +1,218 @@
+.bg-image {
+  background-image: url("../Jpgs/banner-image.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+@media (max-width: 767.98px) {
+  .bg-image {
+    background-position: 85% 60%;
+    background-repeat: no-repeat;
+  }
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    background-color: transparent;
+  }
+}
+
+.nav-item {
+  font-size: 12px;
+}
+
+.nav-link {
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .nav-link {
+    color: #fff;
+  }
+}
+
+.navbar-toggler {
+  color: black;
+  border: none;
+}
+
+#elip {
+  color: #535353;
+}
+
+#signup {
+  border-radius: 50px;
+  width: 7em;
+  margin-left: 1em;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.empty {
+  display: none;
+}
+
+@media (max-width: 575.98px) {
+  .empty {
+    display: block;
+  }
+}
+
+#mainbannertext {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  font-weight: 100px;
+  text-align: left;
+  margin: 0 1rem;
+}
+
+@media (min-width: 768px) {
+  #mainbannertext {
+    text-align: start;
+    margin-left: 3rem;
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 350px) {
+  #mainbannertext {
+    font-size: 28px;
+  }
+}
+
+#bannersubtext {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  margin: 0 1rem;
+}
+
+#bannersubtext .col {
+  font-size: 10px;
+  font-weight: 200px;
+}
+
+@media (min-width: 768px) {
+  #bannersubtext .col {
+    text-align: start;
+    font-size: 12px;
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 350px) {
+  #bannersubtext .col {
+    font-size: 8px;
+  }
+}
+
+.footer-container {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    border-top: 3px solid #6ab190;
+    background-color: white;
+    opacity: 100%;
+  }
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+}
+
+footer button {
+  width: 90%;
+  border-radius: 50px !important;
+}
+
+@media (max-width: 767.98px) {
+  footer footer {
+    background-color: rgba(255, 255, 255, 0.507);
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  footer {
+    height: 90%;
+  }
+}
+
+#find {
+  font-family: 'Raleway', sans-serif;
+  background-color: #5aaa83;
+  border-color: #5aaa83;
+}
+
+@media (max-width: 575.98px) {
+  #find {
+    font-size: 22px;
+    height: 80%;
+    width: 90%;
+    margin-top: 8px;
+  }
+}
+
+.h-15 {
+  height: 15%;
+}
+
+@media (min-width: 768px) {
+  .h-15 {
+    height: 20%;
+  }
+}
+
+#create {
+  color: #fff;
+}
+
+#person {
+  color: #fff;
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+  margin-left: 1em;
+  font-size: 16px;
+}
+
+#search {
+  color: #fff;
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+  margin-right: 8px;
+}
+
+#down {
+  color: #fff;
+  outline: 1px;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+  margin-right: 7px;
+}
+
+#downsmall {
+  color: #fff;
+  outline: 1px;
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+  margin-right: 7px;
+}
+
+@media (max-width: 350px) {
+  #downsmall {
+    display: none;
+  }
+}
+
+ion-icon {
+  --ionicon-stroke-width: 16px;
+}
+/*# sourceMappingURL=app.css.map */

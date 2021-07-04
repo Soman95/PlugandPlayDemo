@@ -1,0 +1,209 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// ************************************************************
+// background image
+.bg-image{
+  background-image: url('../Jpgs/banner-image.jpg');
+  background-size: cover;
+  min-height: 100vh; 
+}
+@include media-breakpoint-down(md) {
+  .bg-image {
+    background-position: 85% 60%;
+    background-repeat: no-repeat; 
+  }
+}
+// ************************************************************
+
+// ************************************************************
+// navbar styles
+.navbar {
+    background-color: #fff;
+    @include media-breakpoint-up(md) {
+        background-color: transparent;
+    }
+}
+.nav-item{
+  font-size: 12px;
+}
+.nav-link {
+  color: black;
+  @include media-breakpoint-up(md) {
+        color: #fff;
+    }
+}
+.navbar-toggler {
+  color: black;
+  border: none;
+}
+#elip {
+  color: rgb(83, 83, 83);
+}
+
+#signup{
+  border-radius: 50px;
+  width: 7em;
+  margin-left: 1em;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif
+}
+// ************************************************************
+// empty div 
+.empty{
+  display: none;
+}
+@include media-breakpoint-down(sm) {
+  .empty { 
+    display: block;
+  }
+}
+// ************************************************************
+// banner main text styles
+#mainbannertext{
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  font-weight: 100px;
+  text-align: left;
+  margin: 0 1rem ;
+}
+@include media-breakpoint-up(md) {
+  #mainbannertext { 
+    text-align: start;
+    margin-left: 3rem;
+    font-size: 48px;
+  }
+}
+@media (max-width: 350px) {
+  #mainbannertext {
+    font-size: 28px;
+  }
+}
+// banner sub text styles
+#bannersubtext {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  margin: 0 1rem ;
+}
+#bannersubtext .col{
+  font-size: 10px;
+  font-weight: 200px;
+}
+@include media-breakpoint-up(md) {
+  #bannersubtext .col{ 
+    text-align: start;
+    font-size: 12px;
+    margin-left: 2rem;
+  }
+}
+@media (max-width: 350px) {
+  #bannersubtext .col{
+    font-size: 8px;
+  }
+}
+// ************************************************************
+
+// ************************************************************
+//footer styles
+.footer-container{
+background-color: rgba(255, 255, 255, 0.7);
+}
+@include media-breakpoint-up(md) {
+  .footer-container { 
+  border-top: 3px solid rgb(106,177,144);
+  background-color: rgba(255, 255, 255, 1.0);
+  opacity: 100%;
+  }
+}
+
+footer{
+width: 100%;
+text-align: center;
+button {
+    width: 90%;
+    border-radius: 50px !important;
+}
+@include media-breakpoint-down(md) {
+  footer { 
+    background-color: rgba(255, 255, 255, 0.507);
+    padding-bottom: 30px;
+        }
+    }
+}
+@include media-breakpoint-down(sm) {
+  footer {
+    height: 90%;
+  }
+}
+
+#find{
+  font-family: 'Raleway', sans-serif;
+  background-color: rgb(90,170,131);
+  border-color: rgb(90,170,131);
+}
+@include media-breakpoint-down(sm) {
+  #find {
+    font-size: 22px;
+    height: 80%; 
+    width: 90%;
+    margin-top: 8px;
+  }
+}
+
+.h-15{
+  height: 15%;
+}
+@include media-breakpoint-up(md) {
+  .h-15 { 
+    height: 20%;
+  }
+}
+// ************************************************************
+
+// ************************************************************
+//ion-icons styles
+#create {
+  color: #fff;
+}
+
+#person {
+  color: #fff;
+  transform: translateY(2px);
+  margin-left: 1em;
+  font-size: 16px;
+}
+
+#search {
+  color: #fff;
+  transform: translateY(2px);
+  margin-right: 8px;
+}
+
+#down {
+  color: #fff;
+  outline: 1px;
+  transform: translateY(10px);
+  margin-right: 7px;
+}
+#downsmall {
+  color: #fff;
+  outline: 1px;
+  transform: translateY(5px);
+  margin-right: 7px;
+}@media (max-width: 350px) {
+  #downsmall {
+    display: none;
+  }
+}
+
+ion-icon {
+  --ionicon-stroke-width: 16px;
+}
+// ************************************************************
+
+
+
+
