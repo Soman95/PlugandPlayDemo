@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plug & Plug Junior Test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/app.css">
+</head>
+
+<body>
+    <div class="bg-image">
+
+        <!-- responsive navbar -->
+        <nav class="navbar navbar-expand-md container-fluid">
+            <img class="d-md-none" src="pnpicon.png" alt="company logo">
+            <img class="d-none d-md-block" src="pnpicon-light.png" alt="company logo">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <ion-icon name="ellipsis-vertical" id="elip"></ion-icon>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item navbar-text d-none d-md-block">
+                        <ion-icon name="create-outline" class="mr-1" id="create"></ion-icon>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Write a Review</a>
+                    </li>
+                    <li class="nav-item navbar-text d-none d-md-block">
+                        <ion-icon name="person-circle-outline" class="mr-2" id="person"></ion-icon>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Log in</a>
+                    </li>
+                </ul>
+                <button class="btn btn-outline-light btn-sm d-none d-md-inline-block" id="signup">
+                    Sign up
+                </button>
+
+                <button class="btn btn-outline-dark btn-sm d-inline-block d-md-none">
+                    Sign up
+                </button>
+            </div>
+        </nav>
+
+        <!-- empty div -->
+        <div class="mb-5 pb-5"></div>
+
+        <!-- empty div -->
+        <div class="pb-5 empty"></div>
+
+        <!-- Banner text -->
+        <div class="container-fluid mt-4 pt-3">
+
+            <div class="row" id="mainbannertext">
+                <div class="col">Managing your <br class="d-md-none">health
+                    <br class="d-none d-md-block"> has
+                    never <br class="d-md-none">
+                    been easier.
+                </div>
+            </div>
+
+            <!-- Banner sub text -->
+            <div class="row" id="bannersubtext">
+                <div class="col">
+                    <ion-icon class="d-md-none" name="arrow-down-circle-outline" size="small" id="downsmall"></ion-icon>
+                    <ion-icon class="d-none d-md-inline-block" name="arrow-down-circle-outline" size="large" id="down">
+                    </ion-icon> <b>Search</b>,
+                    <b>Compare</b>
+                    and
+                    <b>Book</b> a
+                    healthcare specialist.
+                </div>
+            </div>
+
+        </div>
+
+        <!-- footer -->
+        <div class="footer-container fixed-bottom h-15">
+            <footer class="position-absolute top-50 start-50 translate-middle">
+                <button type="button" class="btn btn-success btn-lg" id="find">
+                    <ion-icon name="search-outline" id="search"></ion-icon>Find a Specialist
+                </button>
+            </footer>
+        </div>
+
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
